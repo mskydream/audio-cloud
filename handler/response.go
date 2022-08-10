@@ -9,13 +9,13 @@ type errorResponse struct {
 	Message string `json:"message"`
 }
 
-// type statusResponse struct {
-// 	Status string `json:"status"`
-// }
+type statusResponse struct {
+	Status string `json:"status"`
+}
 
-// type idResponse struct {
-// 	ID int `json:"id"`
-// }
+type idResponse struct {
+	ID int `json:"id"`
+}
 
 type tokensResponse struct {
 	Token        string `json:"token"`

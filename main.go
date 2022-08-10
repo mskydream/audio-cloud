@@ -32,7 +32,7 @@ func main() {
 	services := service.NewService(repos, accessTokenTTL, refreshTokenTTL)
 	handlers := handler.NewHandler(services)
 
-	router := handlers.SetupRouter()
+	router := handlers.InitRoutes()
 
-	router.Run()
+	router.Run(":8080")
 }

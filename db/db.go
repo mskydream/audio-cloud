@@ -32,6 +32,6 @@ func InitDatabase(c *config.DB) *sqlx.DB {
 			panic(err)
 		}
 	}
-	fmt.Println("Success")
+
 	return db
 }
