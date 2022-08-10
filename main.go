@@ -35,5 +35,4 @@ func main() {
 	router := handlers.SetupRouter()
 
 	router.Run()
-
 }

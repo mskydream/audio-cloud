@@ -27,6 +27,7 @@ func NewAuthService(repo repository.Authorization, accessTokenTTL, refreshTokenT
 }
 
 func (s *AuthService) CreateUser(user storage.User) (int, error) {
+
 	return s.repo.CreateUser(user)
 }
 
